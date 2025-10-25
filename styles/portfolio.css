@@ -13,3 +13,29 @@
   padding-top: 350px;
   text-align: center;
 }
+
+#projects .card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+#projects .card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.12);
+}
+
+#projects .card .card-title {
+  font-weight: 600;
+}
+
+#projects .card-text {
+  color: #555;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #projects .card {
+    transition: none;
+  }
+}
