@@ -1,18 +1,35 @@
+body {
+  background-color: #f8f8f7;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h2,
+h3,
+h4 {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+p {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  color: #444;
+}
+
 .hero {
-  background-color: #f0f0f0;
+  background-color: #e8d8c4;
+  color: #561c24;
   padding: 50px 0;
   text-align: center;
 }
 
 .btn-branding {
-  background-color: pink;
+  background-color: #561c24;
+  color: #f8f8f7;
   border-radius: 15px;
-}
-
-h1,
-h2,
-h3 {
-  text-align: center;
 }
 
 #about-section {
@@ -21,6 +38,7 @@ h3 {
 }
 
 #projects .card {
+  background-color: #e8d8c4;
   border: none;
   border-radius: 8px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
@@ -37,7 +55,7 @@ h3 {
 }
 
 #projects .card-text {
-  color: #555;
+  color: #444;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -70,7 +88,6 @@ h3 {
   }
 }
 
-/* Social icons and contact details styling */
 .social-links .social-icon {
   color: #333;
   font-size: 1.25rem;
@@ -79,13 +96,13 @@ h3 {
 }
 
 .social-links .social-icon:hover {
-  color: pink;
+  color: #561c24;
   transform: translateY(-3px);
   text-decoration: none;
 }
 
 #contact .contact-details i {
-  color: pink;
+  color: #561c24;
   width: 20px;
   text-align: center;
 }
@@ -94,4 +111,20 @@ h3 {
   .social-links .social-icon {
     transition: none;
   }
+}
+
+body {
+  padding-top: 72px;
+}
+
+.navbar-brand {
+  color: #561c24;
+}
+
+.navbar .nav-link {
+  color: #561c24;
+}
+
+.navbar .nav-link:hover {
+  color: #561c24;
 }
